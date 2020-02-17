@@ -1,7 +1,0 @@
-namespace redpanda;
-
-table SendPublicKey {
-  publicKey:[byte];
-}
-
-root_type SendPublicKey;

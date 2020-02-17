@@ -1,0 +1,7 @@
+namespace im.redpanda.commands;
+
+table FBPublicKey {
+  publicKey:[byte];
+}
+
+root_type FBPublicKey;

@@ -1,0 +1,13 @@
+namespace im.redpanda.commands;
+
+table FBPeerList {
+  peers:[FBPeer];
+}
+
+table FBPeer {
+  nodeId:[byte];
+  ip:string;
+  port:short;
+}
+
+root_type FBPeerList;
