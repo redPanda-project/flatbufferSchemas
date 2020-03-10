@@ -7,7 +7,7 @@
             "label": "flatc compile",
             "type": "shell",
             "windows": {
-            "command": "flatc --dart --java --gen-generated --dart .\\Commands\\FBPeerList.fbs; flatc --dart --java --gen-generated --dart .\\Commands\\FBPublicKey.fbs",
+            "command": "flatc --dart --java --dart .\\Commands\\FBPeerList.fbs; flatc --dart --java --dart .\\Commands\\FBPublicKey.fbs",
             },
             "group": {
                 "kind": "build",

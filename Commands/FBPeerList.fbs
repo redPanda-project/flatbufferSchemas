@@ -7,7 +7,7 @@ table FBPeerList {
 table FBPeer {
   nodeId:[byte];
   ip:string;
-  port:short;
+  port:int;
 }
 
 root_type FBPeerList;
